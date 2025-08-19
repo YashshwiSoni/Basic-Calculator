@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wprk-area{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.head{
+    /* border: 1px solid red; */
+    background-color: #3f78b0;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.body{
+    /* border: 1px solid red; */
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.boxdesign{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #3f78b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    width: 25%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#resultbox{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: .5rem;
+    width: 90%;
+    height: 20%;
+
+}
+#result{
+    border-radius: .5rem;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 40px; 
+}
+
+.buttons{
+    /* border: 1px solid red;  */
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.modifybutton{
+     /* border: 1px solid rgb(238, 231, 231);  */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #203f5d;
+    border-radius: .5rem;
+    width: 24%;
+    height:95%;
+    color: white;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: #57a6f5;
+}
+
+
+.opratorbutton{
+    /* border: 1px solid rgb(42, 39, 39);  */
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.numbutton{
+  /* border: 1px solid rgb(255, 255, 255);  */
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+}
+.numbtn{
+    background-color: #36516b;
+    border-radius: 1rem;
+    width: 32%;
+    height:24%;
+    color: white;
+    font-size: 1.5rem;
+}
+.numbtn:hover{
+    background-color: #57a6f5;
+}
+
+
+.resultbutton{
+  /* border: 1px solid rgb(255, 255, 255);  */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;  
+}
+.rsltbtn{
+    background-color: #203f5d;
+    border-radius: .5rem;
+    width: 95%;
+    height:24%;
+    color: white;
+    font-size: 1.5rem;
+}
+.rsltbtn:hover{
+    background-color: #57a6f5;
+}
+
+.foot{
+    /* border: 1px solid red; */
+    background-color: #3f78b0;
+    height: 5vh;
+    width: 100%;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+@media(max-width: 600px){
+
+.head{
+    font-size: 12px;
+}
+
+.boxdesign{
+    width: 75%;
+}
+
+.dishead{
+    font-size: 15px;
+
+}
+.discription{
+    font-size: 12px;
+}
+
+.foot{
+    font-size: 12px;
+    text-align: center;
+}
+
+}
